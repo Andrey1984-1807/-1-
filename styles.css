@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #f1f1f1;
+  color: #000000;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  color: red;
+}
+/*.opisy
+.opisy {
+  padding: 10px 20px;
+  background: #c6ea87;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}*/
+
+.lov {
+  color: #4d2bf7;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: aqua;
+}
+a:visited {
+  color: gray;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+.bg-med {
+  background: #b8f1f0;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 28px;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.25);
+}
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: lowercase;
+  text-transform: 20px;
+  /*letter-spacing: 15px;*/
+  /*word-spacing: 42px;*/
+}
+
+/*Box Model*/
+.container {
+  padding-top: 30px;
+  max-width: 750px;
+  margin: auto;
+}
+
+/* .cociol {
+  /*padding: 15px; */
+/*padding: 15px 40px; */
+/*padding: 15px 20px 25px 30px; */
+/* background: gold;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+
+  border: 5px solid red;
+  border-bottom-style: dotted;
+  border-top-width: 15px;
+  border-right-color: aqua; } */
+
+/*.box-model > div {
+  float: left;
+  background: #000;
+  height: 200px;
+  width: 25%;
+  border: 4px solid red;
+  box-sizing: border-box;
+} */
+
+.list {
+  padding: 0 20px;
+}
+.list li {
+  color: #252323cc;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+/*.table tr:nth-child(even) {
+  background: red;
+}*/
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contacn h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.kub {
+  max-width: 750px;
+  margin: auto;
+}
+
+.form-group input,
+.form-group textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  color: #fff;
+  padding: 15px 20px;
+  background: #111;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
